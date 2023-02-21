@@ -38,7 +38,13 @@ function ContextProvider({children}){
     }
 
     return(
-        <Context.Provider value={{allPhotos, cartItems, toggleFavorite, addToCart, removeFromCart, emptyCart}}>
+        <Context.Provider 
+        value={{allPhotos, 
+            cartItems, 
+            toggleFavorite,
+            addToCart, 
+            removeFromCart, 
+            emptyCart}}>
             {children}
         </Context.Provider>
     )
